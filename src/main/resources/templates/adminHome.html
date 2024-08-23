@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body, h1, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Light blue background */
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #87ceeb; /* Sky blue */
+            padding: 20px;
+            text-align: center;
+        }
+
+        .nav-links {
+            list-style: none;
+        }
+
+        .nav-links li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 80vh;
+            background-color: #b0e0e6; /* Pale Turquoise */
+            text-align: center;
+        }
+
+        .hero-content h1 {
+            font-size: 3rem;
+            color: #333;
+        }
+
+        .hero-content p {
+            font-size: 1.5rem;
+            margin: 20px 0;
+            color: #666;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            color: #fff;
+            background-color: #4682b4; /* Steel blue */
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .cta-button:hover {
+            background-color: #5f9ea0; /* Cadet blue */
+        }
+
+        footer {
+            background-color: #4682b4; /* Steel blue */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="logo"></div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="/logout">Logout</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Welcome Admin</h1>
+        <p>Your journey to excellence starts here.</p>
+        <a href="#" class="cta-button">Get Started</a>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 MyWebsite. All rights reserved.</p>
+</footer>
+</body>
+</html>
